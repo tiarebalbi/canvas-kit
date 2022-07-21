@@ -4703,6 +4703,175 @@
   resolved "https://registry.yarnpkg.com/@workday/canvas-depth-web/-/canvas-depth-web-0.16.4.tgz#3714a1a955055386a2b70cc05852162b1e056bf2"
   integrity sha512-l4LpCUk2G1FVRfo0Z+MkCWa9bzNIfWdUqGtdXaFSBySYgYvLhG6vNNuTK1VXls8jQdFCUROhKRWcy3Ht1n7NDg==
 
+"@workday/canvas-kit-css-action-bar@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-action-bar/-/canvas-kit-css-action-bar-5.3.17.tgz#d08d7a3e555670b1bfcccbdcb40b622d5e1ea05c"
+  integrity sha512-BpQm+PUvhLAWL4KFbzd0W733fgABRR26gU5x0E6KyuQUyUBK4e0bJH0CnRUAZcArDo3/WmoqdPeug8W+PrYCPg==
+  dependencies:
+    "@workday/canvas-kit-css-button" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-badge@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-badge/-/canvas-kit-css-badge-5.3.17.tgz#78b69dead0d9611d9e6d37bc190ff635dad5b893"
+  integrity sha512-yh/oOQbhERx9PHhrlYExv/RbE632LEcfbf2cbGiem8c9m+HOLR4B2R2iLdDnubXZ3iiQaShHz92SBiB7rm5LnQ==
+
+"@workday/canvas-kit-css-banner@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-banner/-/canvas-kit-css-banner-5.3.17.tgz#12cb5cd35fb3e710c931b34253afc044cf899fea"
+  integrity sha512-jMIO/vn6VIrlKYJZoK6NDPg/+koOa0Lk+vZjt+xtN89oXYUXuhXn7ivEbj4qBY0ozAqthYMGBzPzE0Ci0fjskQ==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+    "@workday/canvas-system-icons-web" "1.0.41"
+
+"@workday/canvas-kit-css-button@^5.2.1", "@workday/canvas-kit-css-button@^5.3.17":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-button/-/canvas-kit-css-button-5.3.17.tgz#1ff160ae81deb23fe79d124a1bb981e3307aa38e"
+  integrity sha512-iGrC+Kqg6ScGwR10RSNywzKWe0tzfEVTwol5ygpcCRuprhpI06szZsvp29H/QCvQPaH8TQ5ytfhxnIg5MVRD/A==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+    "@workday/canvas-system-icons-web" "1.0.41"
+
+"@workday/canvas-kit-css-card@^5.2.1", "@workday/canvas-kit-css-card@^5.3.17":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-card/-/canvas-kit-css-card-5.3.17.tgz#c49f9e11d3448f981930255b3518345a903425c5"
+  integrity sha512-KdgyrOg+NXt75h4l/c59wSnDpGvc9GmIaYH7G+bUAi7jgN3d3thEVG+pD8EGlTMblUS5MCzqCX7lcQJOnXPTfg==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-checkbox@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-checkbox/-/canvas-kit-css-checkbox-5.3.17.tgz#849204f16ba23410a347c5e348dccb3a57a7f61c"
+  integrity sha512-4vCANXGKBo6wNCNewDrIPwJOmYdxqXe8zdtDiRs5Edv9a1bt3DTuBbi8klDovGw9oZZsKqzUU2FhUCMqqwokiQ==
+  dependencies:
+    "@workday/canvas-kit-css-common" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-common@^5.2.1", "@workday/canvas-kit-css-common@^5.3.17":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-common/-/canvas-kit-css-common-5.3.17.tgz#214c170b73da643529ffe72df214de8a6361eb2e"
+  integrity sha512-WiqFRqMIbkhmCTNROLxtCeXiCRQnZSsKv0E2HcMWEN+ij65D5XU6RkUXJKFZbBwNZuCN8W4TOljYxb2UjjIYBg==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-core@^5.2.1", "@workday/canvas-kit-css-core@^5.3.17":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-core/-/canvas-kit-css-core-5.3.17.tgz#948f2c4c8b509118cffa74f0bcd327dbe3216b74"
+  integrity sha512-KD9dQUFKOVkK+RS50XuPCb0mUUt9kD+FZ2CEuCDFcinH928j1+EnOK3wBI7Le1rHvwqpUQmm6fk7dcXE8pFA0Q==
+  dependencies:
+    "@workday/canvas-colors-web" "^2.0.0"
+    "@workday/canvas-depth-web" "^0.16.4"
+
+"@workday/canvas-kit-css-form-field@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-form-field/-/canvas-kit-css-form-field-5.3.17.tgz#10e55a07757a45beb6ee1253a9c626d629fd4875"
+  integrity sha512-i4ueXs3lz0CI5UQU940m8b4TrylTsKFTTDIdoCB/XwFrLj59a1AAj/09xmA2KBy2KHmAyn2WJUNIioJVhLX8dw==
+  dependencies:
+    "@workday/canvas-kit-css-common" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+    "@workday/canvas-system-icons-web" "1.0.41"
+
+"@workday/canvas-kit-css-icon@^5.2.1", "@workday/canvas-kit-css-icon@^5.3.17":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-icon/-/canvas-kit-css-icon-5.3.17.tgz#fb35d36617c341ec0fe8734ef2ab9e6a51403176"
+  integrity sha512-3120bX9HJ5sognKHtgyJRjmIrxds2FOGe5+U0g2YYrtAAHxkatqZsAhb4Jp9GWYHP/lY2pwvCciKTOLpk4p9Ow==
+  dependencies:
+    "@workday/canvas-colors-web" "^2.0.0"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+    svg-injector "^1.1.3"
+    to-slug-case "^1.0.0"
+
+"@workday/canvas-kit-css-layout@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-layout/-/canvas-kit-css-layout-5.3.17.tgz#d6c5f2ee5aba38c464467b9f9a075a300f2880cb"
+  integrity sha512-ge+biY9M2c6DwfyVFhUz88SoMUVvHVL6pYNIwB26Fc+5N1yEHfNHvHxFNHR1f+fEs4q/R72RAlPXtnjWR4Fj0w==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-loading-animation@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-loading-animation/-/canvas-kit-css-loading-animation-5.3.17.tgz#761d0db3a7dfe55a86659d68f50a1e7f2083a6b0"
+  integrity sha512-xfHPUoon0qahG2+uAYzVKJqyfd/wYzZITQdOI6ziAjTds5uN5f3+MBXxmbk4YcUHaE1AUn9nxLr/+mNNm+wMeQ==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-menu@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-menu/-/canvas-kit-css-menu-5.3.17.tgz#54340ab3f865795d6c04318528c8c5c8459603b4"
+  integrity sha512-sRWZxz2GZCf5SAYwgYwHoS/9JnZWkObCWjtnlq4qHLlnX0wNrfM7o4k6qf7ESC+sHsoM7UNXqgQvY40ZyBFjnw==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-modal@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-modal/-/canvas-kit-css-modal-5.3.17.tgz#5a421d7b796e9a0f1d064fc9998d14af88fca158"
+  integrity sha512-YxZRWCl3oWtsXDL604SmtD71hEG7MrTw3zT0bGRyg7P8HBTNxmjj/YEBRy0vTCSH+GGIRZK1Fav88A59D+Xttw==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+    "@workday/canvas-kit-css-popup" "^5.3.17"
+
+"@workday/canvas-kit-css-page-header@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-page-header/-/canvas-kit-css-page-header-5.3.17.tgz#cbca0289068284bc1109a399a43f734ea9a8ce9b"
+  integrity sha512-MtlC9PrxW3u/yqG1aZzVNzUGpXiC2snp6sEfwKtIvoMqAF2/vNbafHUPDVwEJ8LC/vM7sNlZ7jNgXFb9qZ8VuA==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-popup@^5.2.1", "@workday/canvas-kit-css-popup@^5.3.17":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-popup/-/canvas-kit-css-popup-5.3.17.tgz#0d689d2831fb53bcde64f2050b335cc71903ff4c"
+  integrity sha512-j/WwZhXDQnoLYx8XYd0FYDabM8dLaOn5mlASFrZbWKa3AbiwT4FhUZr8kFjcxr/g5l/6wjMezWXcyCZr6+bP7Q==
+  dependencies:
+    "@workday/canvas-kit-css-card" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-radio@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-radio/-/canvas-kit-css-radio-5.3.17.tgz#681884c5ae0608d20ac1851935daf29e13f32f9c"
+  integrity sha512-NVafLbIPQGkHDs64aFZp6Mat5DoGoWndXbh2ATUxyQaVeY5vQ1HT7I/N9Rt05CjCaV2DJgXHdmE6rW7akFctug==
+  dependencies:
+    "@workday/canvas-kit-css-common" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-select@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-select/-/canvas-kit-css-select-5.3.17.tgz#f2aa4baa393093a57877f95025bd5c61b99ed915"
+  integrity sha512-7JY46dZxZdyRF5YL/4xLg8PYsZFA45U0dnGd4GrrM/qOa4CJX7Cm8JMMl6s5FVUnxabT2t8ZMioOmjFJ5abrPw==
+  dependencies:
+    "@workday/canvas-kit-css-common" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-table@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-table/-/canvas-kit-css-table-5.3.17.tgz#16e03fb82aa0c72713433333e35cb9e2ea979659"
+  integrity sha512-zRpP7GACApBj03k89TidR7WdpkLkp4BeBXKNXJ0h1qj898ldwTJWsYgGcsPEQKzWZ121hrMlCS73qQIWFRo5jA==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+    "@workday/canvas-kit-css-icon" "^5.3.17"
+
+"@workday/canvas-kit-css-text-area@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-text-area/-/canvas-kit-css-text-area-5.3.17.tgz#da0a653771198a7e391b89144a3f193a75bfb3bb"
+  integrity sha512-i9og+lG1FafmlA50nfvJDkHpU4h8oAgd4O8Ifa4XO16T4/l7OOOA1S3w8I2IM+9AWo3v4eKSS6XzhlTjrvPloQ==
+  dependencies:
+    "@workday/canvas-kit-css-common" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-text-input@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-text-input/-/canvas-kit-css-text-input-5.3.17.tgz#ef070e6d3a53864a359c67812835d2e377a03ae5"
+  integrity sha512-2Z+keBGUk5+FCnVPK7TA+tp49JpjLmIboH71ODFJevMKnMP5Yuqh8TB1UJf2Kbarl/5U2Ep+TCevqPdIeTz6ZA==
+  dependencies:
+    "@workday/canvas-kit-css-common" "^5.3.17"
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
+"@workday/canvas-kit-css-tooltip@^5.2.1":
+  version "5.3.17"
+  resolved "https://registry.yarnpkg.com/@workday/canvas-kit-css-tooltip/-/canvas-kit-css-tooltip-5.3.17.tgz#0c9ee72ef0c6d0c7ffefcbfe8ac0902d1ad57001"
+  integrity sha512-hm52IVWNbBDnzsIb1LAOPfsviZ1LI+37jd0gzb101qBiX9jjDjoTrwd7pFjr3mBFWzDwlLq9IPM3JrVEB0KNdA==
+  dependencies:
+    "@workday/canvas-kit-css-core" "^5.3.17"
+
 "@workday/canvas-system-icons-web@1.0.41":
   version "1.0.41"
   resolved "https://registry.yarnpkg.com/@workday/canvas-system-icons-web/-/canvas-system-icons-web-1.0.41.tgz#ad764e1ba24e5d932270617c1515de6386386a92"
@@ -5982,9 +6151,9 @@ buffer-crc32@~0.2.3:
   integrity sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-xor@^1.0.3:
   version "1.0.3"
@@ -17296,18 +17465,10 @@ source-map-resolve@^0.6.0:
     atob "^2.1.2"
     decode-uri-component "^0.2.0"
 
-source-map-support@^0.5.16:
-  version "0.5.19"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
-  integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
-  dependencies:
-    buffer-from "^1.0.0"
-    source-map "^0.6.0"
-
-source-map-support@^0.5.6, source-map-support@~0.5.12:
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.16.tgz#0ae069e7fe3ba7538c64c98515e35339eac5a042"
-  integrity sha512-efyLRJDr68D9hBBNIPWFjhpFzURh+KJykQwvMyW5UiZzYwoF6l4YMMDIJJEyFWxWCqfyxLzz6tSfUFR+kXXsVQ==
+source-map-support@^0.5.16, source-map-support@^0.5.6, source-map-support@~0.5.12:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -18062,19 +18223,10 @@ terser-webpack-plugin@^3.1.0:
     terser "^4.8.0"
     webpack-sources "^1.4.3"
 
-terser@^4.1.2, terser@^4.3.9, terser@^4.6.2:
-  version "4.6.11"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.11.tgz#12ff99fdd62a26de2a82f508515407eb6ccd8a9f"
-  integrity sha512-76Ynm7OXUG5xhOpblhytE7X58oeNSmC8xnNhjWVo8CksHit0U0kO4hfNbPrrYwowLWFgM2n9L176VNx2QaHmtA==
-  dependencies:
-    commander "^2.20.0"
-    source-map "~0.6.1"
-    source-map-support "~0.5.12"
-
-terser@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
-  integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
+terser@^4.1.2, terser@^4.3.9, terser@^4.6.2, terser@^4.8.0:
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
